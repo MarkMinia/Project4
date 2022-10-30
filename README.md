@@ -7,21 +7,21 @@
 ##### User/audience: Tourists/birders visiting a state park’s website.
 
 ##### Core elements included in dashbaord:
-- Heatmap of Vermont using zip codes
-- Horizontal bar graph displaying total sightings by zip code and by bird species
-- Dropdown with a brief description of each bird
+- ##### Heatmap of Vermont using zip codes
+- ##### Horizontal bar graph displaying total sightings by zip code and by bird species
+- ##### Dropdown with a brief description of each bird
 
 ##### The following birds were used in this dashboard, although the locations were at random for the purpose of creating a heat map.
-- Peregrine falcon
-- Yellow-bellied sapsucker
-- Golden-winged warbler	
-- Bobolink
-- Eastern towhee	
-- Chimney swift
-- Scarlet tanager	
-- Red-breasted nuthatch
-- Wood thrush	
-- Blue-winged warbler
+- ##### Peregrine falcon
+- ##### Yellow-bellied sapsucker
+- ##### Golden-winged warbler	
+- ##### Bobolink
+- ##### Eastern towhee	
+- ##### Chimney swift
+- ##### Scarlet tanager	
+- ##### Red-breasted nuthatch
+- ##### Wood thrush	
+- ##### Blue-winged warbler
 
 ##### When creating this dashboard, we weren't given a data set to experiement with, so I decided to created a table using randomly generated numbers. This is so that I could personally practice creating dynamic images using pivot tables rather than present static ones. I decided to go with a more portrait oriented style because I wanted it feel like a mobile application due to birding being a mobile activity; you're traveling from one place to another trying to find these specific birds in the area so you're likely going to be using this dashboard on your phone and not on a laptop or desktop. 
 
