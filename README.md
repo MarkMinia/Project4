@@ -1,43 +1,28 @@
 # Excel Birding Dashboard
 
-Dashboard:
+##### I used Excel for this project.
 
-Use at least five different metrics/comparisons represented in charts or other ways
-- Emphasize more important metrics using color, intensity, or size
-- Create an alert of sorts when a metric gets too low or high
-- Create titles for the dashboard and axes on charts
-- Create labels for your most important metrics or where necessary to promote clarity
-- Use at least one image representing the theme of your dashboard
+##### Project purpose: This dashboard is more of an informative one. It doesn’t track birds exactly through GPS, but rather gives general sighting locations as determined by field naturalists. So, this does not need to be in real time. It has more of an advertising component to it. If more people take interest in this dashboard for bird information, they might view the state park more favorably and either donate or visit more often. So, make sure this dashboard inspires people’s love for birds and is attractive and fun.
 
-Submission Instructions
+##### User/audience: Tourists/birders visiting a state park’s website.
 
-This is a public-facing dashboard that will be used as a map to find bird sightings in Vermont. It will also display bird information so tourists can learn about birds.
+##### Core elements included in dashbaord:
+- Heatmap of Vermont using zip codes
+- Horizontal bar graph displaying total sightings by zip code and by bird species
+- Dropdown with a brief description of each bird
 
-User/audience: tourists/birders visiting a state park’s website
+##### The following birds were used in this dashboard, although the locations were at random for the purpose of creating a heat map.
+- Peregrine falcon
+- Yellow-bellied sapsucker
+- Golden-winged warbler	
+- Bobolink
+- Eastern towhee	
+- Chimney swift
+- Scarlet tanager	
+- Red-breasted nuthatch
+- Wood thrush	
+- Blue-winged warbler
 
-Purpose: this dashboard is more of an informative one. It doesn’t track birds exactly through GPS, but rather gives general sighting locations as determined by field naturalists. So, this does not need to be in real time. It has more of an advertising component to it. If more people take interest in this dashboard for bird information, they might view the state park more favorably and either donate or visit more often. So, make sure this dashboard inspires people’s love for birds and is attractive and fun.
+##### When creating this dashboard, we weren't given a data set to experiement with, so I decided to created a table using randomly generated numbers. This is so that I could personally practice creating dynamic images using pivot tables rather than present static ones. I decided to go with a more portrait oriented style because I wanted it feel like a mobile application due to birding being a mobile activity; you're traveling from one place to another trying to find these specific birds in the area so you're likely going to be using this dashboard on your phone and not on a laptop or desktop. 
 
-Alert: this dashboard has no need to alert anyone unless a designated birding area is closed.
-
-Choose five (or more) items for your dashboard:
-Title
-Bird photos
-Ten species of birds found in Vermont (change these if you want!):
-Peregrine falcon
-Yellow-bellied sapsucker
-Golden-winged warbler	
-Bobolink
-Eastern towhee	
-Chimney swift
-Scarlet tanager	
-Red-breasted nuthatch
-Wood thrush	
-Blue-winged warbler
-
-A Vermont state map should be the main graphic in your dashboard. An outline is OK; we don’t want too much detail.
-Mark the bird locations (using scatterplot-like dots or shaded regions) on the map.
-A dropdown menu with all the bird names on it. When you use the dropdown, the entire map changes to show locations of that bird.
-A sound icon so users can click it and hear how the bird sounds
-A season chart (possible line chart?) to show which birds are common during which seasons. Include some migrating birds in spring and fall.
-Common foods chart showing what each bird likes to eat
-A way to search birds by region (define these yourself; for instance, you could have a northern, southern, eastern, western region, or a greater Burlington area region; it’s up to you)
+##### The heat map and bar graph involved creating pivot tables, then slicing the data so that it enables me to select the specific values I want and changes the graph according to my selection. Creating the bird drop down with the image and description was more complicated because there were additional steps and functions required. A bit of prepping was involved in a different tab to ensure the names of cells and the way it was arranged would allow the functions to work properly. I needed to use Data Validation, an INDIRECT function, and a VLOOKUP funtion so that the image and description changed altogether when selecting from the drop down. 
