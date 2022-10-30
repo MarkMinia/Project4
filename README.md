@@ -11,7 +11,7 @@
 - ##### Horizontal bar graph displaying total sightings by zip code and by bird species
 - ##### Dropdown with a brief description of each bird
 
-##### The following birds were used in this dashboard, although the locations were at random for the purpose of creating a heat map.
+##### The following birds were used in this dashboard, although the locations were at random for the purpose of creating a heat map:
 - ##### Peregrine falcon
 - ##### Yellow-bellied sapsucker
 - ##### Golden-winged warbler	
