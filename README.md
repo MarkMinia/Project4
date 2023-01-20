@@ -1,6 +1,6 @@
 # Excel Birding Dashboard: Bird is the Word
 
-#### [Birding in Vermont](https://github.com/MarkMinia/Project4/blob/main/Dashboard/Birding%20Dashboard.xlsx)
+#### [Birding in Vermont](https://github.com/MarkMinia/Project4/blob/main/Birding%20Dashboard.xlsx)
 
 ##### The choice of program for this project was not limited to Tableau, and instead of jumping into that, I chose to experiement with Excel because of how widely used the program is, whether that's in the workplace, school, or at home. I thought it would also be helpful to familarize with the capabilities of more than one program.
 
